@@ -1,0 +1,23 @@
+{
+  "name": "nate-windows_account_names",
+  "version": "0.1.0",
+  "author": "Nate McCurdy",
+  "summary": "Custom fact that shows the name of the Administrator and Guest account.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/natemccurdy/windows_account_names",
+  "project_page": "https://github.com/natemccurdy/windows_account_names",
+  "issues_url": "https://github.com/natemccurdy/windows_account_names/issues",
+  "dependencies": [ ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows"
+    }
+  ],
+  "tags": [
+    "windows",
+    "fact",
+    "custom facts",
+    "accounts",
+    "local accounts"
+  ]
+}
