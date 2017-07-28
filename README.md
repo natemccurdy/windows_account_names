@@ -33,7 +33,7 @@ if $current_admin != 'abcdefg' {
 }
 ```
 
-> Note that this is a bit of a contrived example as it's probably be better to use an `unless` attribute with some PowerShell to make the exec idempotent.
+> Note that this is a bit of a contrived example as it'd probably be better to use an `unless` attribute with some PowerShell to make the exec idempotent.
 
 ## Example 2
 
