@@ -1,3 +1,5 @@
+[![Puppet Forge](https://img.shields.io/puppetforge/v/nate/windows_account_names.svg)](https://forge.puppetlabs.com/nate/windows_account_names)
+
 # Windows Accounts Fact
 
 This Puppet module adds a custom fact called `windows_accounts` that shows the current name of the Administrator and Guest users on Windows.
