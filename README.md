@@ -1,4 +1,5 @@
 [![Puppet Forge](https://img.shields.io/puppetforge/v/nate/windows_account_names.svg)](https://forge.puppetlabs.com/nate/windows_account_names)
+[![Build Status](https://travis-ci.com/natemccurdy/windows_account_names.svg?branch=master)](https://travis-ci.com/natemccurdy/windows_account_names)
 
 # Windows Accounts Fact
 
