@@ -7,10 +7,18 @@
   "source": "https://github.com/natemccurdy/windows_account_names",
   "project_page": "https://github.com/natemccurdy/windows_account_names",
   "issues_url": "https://github.com/natemccurdy/windows_account_names/issues",
-  "dependencies": [ ],
+  "dependencies": [
+
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "Windows"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
     }
   ],
   "tags": [
@@ -19,5 +27,8 @@
     "custom facts",
     "accounts",
     "local accounts"
-  ]
+  ],
+  "pdk-version": "1.10.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates.git#1.10.0",
+  "template-ref": "1.10.0-0-gbba9ac3"
 }
