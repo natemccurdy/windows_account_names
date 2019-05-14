@@ -66,3 +66,20 @@ This fact enumerates all local users and looks for the SID's that match the patt
 | Administrator | `/^S-1-5-21.*-500$/` |
 | Guest         | `/^S-1-5-21.*-501$/` |
 
+## Contributing and Development
+
+Pull requests are always welcomed!
+
+This module uses the [Puppet Development Kit][pdk] and [TravisCI][travis] for validation. All pull requests must pass the [TravisCI tests](.travis.yml) before they can be merged.
+
+For local development, here's the workflow I use and what I recommend you use as well:
+1. Create a feature branch.
+2. Make your changes.
+3. Update any docs or README's if user-facing things change.
+4. Run: `pdk validate`
+5. Push up your branch to your fork and make a Pull Request.
+
+
+[pdk]: https://puppet.com/docs/pdk/1.x/pdk.html
+[travis]: https://travis-ci.org/
+
