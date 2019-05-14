@@ -13,8 +13,8 @@ Facter.add(:windows_accounts) do
 
     all_users = Puppet::Resource.indirection.search('user')
 
-    account_names['Administrator'] = all_users.find { |user| user[:uid] =~ /^S-1-5-21.*-500$/ }.title
-    account_names['Guest']         = all_users.find { |user| user[:uid] =~ /^S-1-5-21.*-501$/ }.title
+    account_names['Administrator'] = all_users.find { |user| user[:uid] =~ %r{^S-1-5-21.*-500$} }.title
+    account_names['Guest']         = all_users.find { |user| user[:uid] =~ %r{^S-1-5-21.*-501$} }.title
 
     account_names
   end
