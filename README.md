@@ -72,7 +72,7 @@ This fact enumerates all local users and looks for the SID's that match the patt
 
 Pull requests are always welcomed!
 
-This module uses the [Puppet Development Kit][pdk] for validation. All pull requests must pass the [GitHub Actions checks](ghactions_checks) before they can be merged.
+This module uses the [Puppet Development Kit][pdk] for validation. All pull requests must pass the [GitHub Actions checks][ghactions_checks] before they can be merged.
 
 For local development, here's the workflow I use and what I recommend you use as well:
 1. Create a feature branch.
