@@ -1,5 +1,6 @@
 [![Puppet Forge](https://img.shields.io/puppetforge/v/nate/windows_account_names.svg)](https://forge.puppetlabs.com/nate/windows_account_names)
-[![Build Status](https://travis-ci.com/natemccurdy/windows_account_names.svg?branch=master)](https://travis-ci.com/natemccurdy/windows_account_names)
+[![Build Status](https://github.com/natemccurdy/windows_account_names/actions/workflows/checks.yml/badge.svg)](https://github.com/natemccurdy/windows_account_names)
+
 
 # Windows Accounts Fact
 
@@ -71,7 +72,7 @@ This fact enumerates all local users and looks for the SID's that match the patt
 
 Pull requests are always welcomed!
 
-This module uses the [Puppet Development Kit][pdk] and [TravisCI][travis] for validation. All pull requests must pass the [TravisCI tests](.travis.yml) before they can be merged.
+This module uses the [Puppet Development Kit][pdk] for validation. All pull requests must pass the [GitHub Actions checks](ghactions_checks) before they can be merged.
 
 For local development, here's the workflow I use and what I recommend you use as well:
 1. Create a feature branch.
@@ -81,6 +82,6 @@ For local development, here's the workflow I use and what I recommend you use as
 5. Push up your branch to your fork and make a Pull Request.
 
 
-[pdk]: https://puppet.com/docs/pdk/1.x/pdk.html
-[travis]: https://travis-ci.org/
+[pdk]: https://www.puppet.com/docs/pdk/2.x/pdk.html
+[ghactions_checks]: https://github.com/natemccurdy/windows_account_names/actions/workflows/checks.yml
 
