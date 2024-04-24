@@ -1,6 +1,6 @@
 {
   "name": "nate-windows_account_names",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "Nate McCurdy",
   "summary": "Custom fact that shows the name of the Administrator and Guest account.",
   "license": "Apache-2.0",
