@@ -11,7 +11,7 @@ jobs:
     name: Publish a tagged version to the Puppet Forge
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
       - name: Publish to the Puppet Forge
         run: >
           docker run --rm
